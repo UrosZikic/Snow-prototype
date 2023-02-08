@@ -1,0 +1,103 @@
+/* mm */
+.mm-overlay {
+  background-color: #f1f3f5;
+}
+
+.minimal-mobile {
+  max-width: 140rem;
+  height: 45rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+.mm-left {
+  flex: 1;
+  padding: 10rem;
+  font-family: Playfair Display, arial;
+
+  background-color: #f1f3f5;
+}
+.mm-left h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.mm-left p {
+  font-size: 2.5rem;
+}
+
+.mm-right {
+  width: 100%;
+  height: 100%;
+
+  flex: 1;
+}
+.right-img-mm {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* mm-info */
+.mm-info {
+  display: grid;
+  padding: 10rem 0rem;
+  grid-template-columns: 30rem 30rem 30rem;
+  background-color: #e9ecef;
+
+  gap: 4rem;
+  justify-content: center;
+}
+.mm-info p {
+  font-family: Work Sans, arial;
+  max-width: 45rem;
+}
+.mm-inner-info strong {
+  font-family: Work Sans, arial;
+  font-size: 1.5rem;
+}
+.mm-info-author {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.mm-inner-info {
+  display: flex;
+  gap: 1rem;
+}
+
+/* work slider */
+.work-slider {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  background-color: #fff;
+}
+.work-slider a {
+  vertical-align: middle;
+  font-family: Work Sans, arial;
+}
+.work-slider ion-icon {
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+/* x */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+  font-family: Work Sans, arial;
+}
+footer p {
+  font-size: 1.5rem;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: gray;
+}
+.footer-icon-container {
+  display: flex;
+  gap: 1rem;
+}

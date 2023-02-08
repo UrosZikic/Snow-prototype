@@ -1,0 +1,62 @@
+.business-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 5rem 0rem;
+  font-family: Playfair Display, arial;
+}
+.business-text {
+  max-width: 60rem;
+}
+.business-author {
+  font-family: Playfair Display, arial;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.inner-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.inner-author strong {
+  font-size: 1.8rem;
+}
+.inner-author p {
+  margin: 0;
+}
+
+.work-slider {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  background-color: #fff;
+}
+.work-slider a {
+  vertical-align: middle;
+  font-family: Work Sans, arial;
+}
+.work-slider ion-icon {
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+  font-family: Work Sans, arial;
+}
+footer p {
+  font-size: 1.5rem;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: gray;
+}
+.footer-icon-container {
+  display: flex;
+  gap: 1rem;
+}

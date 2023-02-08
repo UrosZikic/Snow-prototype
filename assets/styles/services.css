@@ -1,0 +1,254 @@
+/* navigation */
+.nav-bar {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.logo-img {
+  height: 10rem;
+  width: 10rem;
+}
+
+/* menu */
+.menu {
+  transition: visibility 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("/assets/images/menu-img.jpg");
+  background-size: 100% 100%;
+  display: none;
+}
+.menu a {
+  font-size: 3rem;
+  color: rgb(221, 219, 219);
+  font-family: Playfair Display, arial;
+  transition: color 0.5s;
+}
+.menu a:hover {
+  color: #fff;
+}
+.close-menu {
+  position: absolute;
+  color: white;
+  top: 2.5rem;
+  right: 40rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* header */
+.header {
+  text-align: center;
+  padding: 25rem 0rem;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 2.5rem;
+
+  background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/about-one.jpg");
+}
+.header h2 {
+  font-size: 1.5rem;
+  font-family: Work Sans;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.header h1 {
+  font-size: 5rem;
+}
+.header em {
+  font-style: italic;
+
+  font-size: 5rem;
+}
+
+/* featured */
+.featured-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.featured-section img {
+  width: 100%;
+}
+.featured-info-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5rem;
+  padding: 0rem 15rem; */
+}
+.featured-info-one-text {
+  font-size: 3.5rem;
+  font-family: Playfair Display;
+  font-weight: 300;
+}
+.featured-info-one-text em {
+  font-weight: 600;
+}
+
+.featured-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  font-family: Work Sans;
+}
+.featured-top,
+.featured-bottom {
+  display: flex;
+  gap: 5rem;
+}
+
+.offer-one-tag-one {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.offer-one-tag-two {
+  font-size: 1.8rem;
+}
+.featured-info-one-p {
+  font-size: 3.5rem;
+  font-family: Playfair Display;
+  font-weight: 300;
+}
+.featured-info-one-p em {
+  font-weight: 600;
+}
+
+.offer-one p:first-child,
+.offer-two p:first-child,
+.offer-three p:first-child,
+.offer-four p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.offer-one p:last-child,
+.offer-two p:last-child,
+.offer-three p:last-child,
+.offer-four p:last-child {
+  font-size: 1.8rem;
+}
+
+.featured-info-one-tag {
+  font-size: 3.5rem;
+  font-family: Playfair Display;
+  font-weight: 300;
+}
+.featured-info-one-tag em {
+  font-weight: 600;
+}
+
+.offer-one p:first-child,
+.offer-two p:first-child,
+.offer-three p:first-child,
+.offer-four p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.offer-one p:last-child,
+.offer-two p:last-child,
+.offer-three p:last-child,
+.offer-four p:last-child {
+  font-size: 1.8rem;
+}
+
+/* carousel addition */
+.carousel-content {
+  padding: 25rem 0rem;
+  background-image: url("../images/background-dark.jpg");
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+}
+.carousel-content p {
+  font-size: 2.5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-family: Playfair Display, arial;
+}
+.carousel-author {
+  font-size: 1.8rem;
+  font-family: Work Sans;
+}
+
+/* sponsors */
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+  gap: 3rem;
+}
+
+.sponsors img {
+  width: 10%;
+}
+
+/* CTA */
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 8rem;
+  background-color: rgb(240, 240, 240);
+}
+.cta h2 {
+  font-family: Playfair Display, arial;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.cta p {
+  font-family: Work Sans, arial;
+  font-size: 1.7rem;
+  color: #000;
+}
+.cta a {
+  font-family: Work Sans, arial;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #000;
+  padding: 1.5rem 3rem;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+  font-family: Work Sans, arial;
+  background-color: #dadada;
+}
+footer p {
+  font-size: 1.5rem;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: gray;
+}
+.footer-icon-container {
+  display: flex;
+  gap: 1rem;
+}

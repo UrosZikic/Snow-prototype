@@ -1,0 +1,353 @@
+/* navigation */
+.nav-bar {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4rem 2rem;
+}
+
+.logo-img {
+  height: 10rem;
+  width: 10rem;
+}
+
+/* menu */
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  z-index: 999;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("/assets/images/menu-img.jpg");
+  background-size: 100% 100%;
+
+  display: none;
+}
+.menu a {
+  font-size: 3rem;
+  color: rgb(221, 219, 219);
+  font-family: Playfair Display, arial;
+  transition: color 0.5s;
+}
+.menu a:hover {
+  color: #fff;
+}
+.close-menu {
+  position: absolute;
+  color: white;
+  top: 2.5rem;
+  right: 40rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* main */
+.product-link {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+/* first-row */
+.first-style {
+  background-image: url("../images/second--row-middle.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.first-style-second {
+  background-image: url("../images/second--row-middle-second.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.first-row {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.first--row-left {
+  flex: 80;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  padding: 5rem 10rem;
+  font-weight: 500;
+}
+.first--row-left h2 {
+  font-family: Playfair Display;
+}
+
+.first--row-left p,
+.first--row-left a {
+  font-family: Work Sans, sans-serif;
+}
+.first--row-left p {
+  line-height: 2.5rem;
+}
+.first--row-right {
+  flex: 115;
+}
+.first--row-img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+/* second row */
+.test {
+  max-width: 110rem;
+  height: 50rem;
+  margin: 0 auto;
+
+  display: flex;
+}
+.one {
+  flex: 1;
+
+  background-image: url("../images/second--row-left-img.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Playfair Display, arial;
+
+  text-align: center;
+}
+
+.one strong {
+  font-size: 3rem;
+  color: white;
+}
+.one p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+.two {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  flex: 1;
+
+  display: flex;
+}
+.first div {
+  flex: 1;
+}
+.hover-function {
+  text-align: center;
+}
+.hover-function strong {
+  font-size: 3rem;
+}
+.hover-function p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: Playfair Display, arial;
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay strong,
+.overlay p {
+  transform: translateY(50px);
+  transition: all 0.5s;
+}
+.overlay:hover strong,
+.overlay:hover p {
+  transform: translateY(0px);
+}
+
+.second {
+  flex: 1;
+  display: flex;
+}
+.second-style {
+  background-image: url("../images/second--row-right.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.second div {
+  flex: 1;
+}
+.second-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  font-family: Playfair Display, arial;
+}
+.second-info h2:first-child {
+  color: rgb(219, 219, 219);
+  font-size: 6rem;
+  padding-left: 2rem;
+}
+.second-info a {
+  padding: 2rem;
+}
+.header-second {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2.5rem;
+  font-family: Playfair Display, arial;
+}
+.header-second em {
+  font-weight: 300;
+}
+
+/* third row */
+.third-row {
+  display: flex;
+}
+.third-row-style {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.third--row-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 2rem;
+  padding: 2rem;
+  padding-right: 4rem;
+  background-color: #fff;
+}
+.third--row-info h2:first-child {
+  font-size: 6rem;
+  font-family: Playfair Display, arial;
+  color: rgb(219, 219, 219);
+}
+.third--row-info h2:last-child {
+  font-size: 2.5rem;
+  color: black;
+}
+.third--row-info h2:last-child em {
+  font-weight: 300;
+  color: black;
+}
+
+.third--row-img {
+  background-image: url("../images/third-row-image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 16rem 0;
+  width: 92%;
+  position: relative;
+}
+
+/* fourth row */
+.fourth-row {
+  display: flex;
+  height: 25rem;
+}
+.row {
+  flex: 1;
+  height: 100%;
+}
+.row3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  gap: 1rem;
+  font-family: Playfair Display, arial;
+  font-size: 2.5rem;
+  background-color: #fff;
+}
+.row3 h2 {
+  font-size: 2.5rem;
+}
+.row3 h2:first-child {
+  font-size: 6rem;
+  color: rgb(219, 219, 219);
+}
+.row3 h2:last-child em {
+  font-weight: 300;
+}
+
+.row-four-image-one {
+  background-image: url("../images/fourth--row-img-left.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-left: 0.7rem;
+}
+
+.row-four-image-one .overlay {
+  text-align: center;
+}
+
+.row-four-image-one .overlay strong {
+  font-size: 3rem;
+}
+
+.row-four-image-two {
+  background-image: url("../images/second--row-middle-second.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+  font-family: Work Sans, arial;
+}
+footer p {
+  font-size: 1.5rem;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: gray;
+}
+.footer-icon-container {
+  display: flex;
+  gap: 1rem;
+}

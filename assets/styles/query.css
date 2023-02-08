@@ -1,0 +1,266 @@
+@media (max-width: 48.5em) {
+  .first-row {
+    flex-direction: column;
+  }
+  .test {
+    flex-direction: column;
+    height: 110rem;
+  }
+  .second-info {
+    justify-content: center;
+  }
+  .third--row-info h2 {
+    font-size: 2.5rem;
+  }
+  .fourth-row {
+    flex-direction: column;
+    height: 80rem;
+  }
+  .close-menu {
+    right: 0;
+  }
+}
+@media (max-width: 31.5em) {
+  .third-row {
+    flex-direction: column;
+  }
+  .first,
+  .second {
+    flex-direction: column;
+  }
+  .first--row-left {
+    padding: 5rem 2rem;
+  }
+  .first--row-left h2 {
+    font-size: 2rem;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* contact query */
+@media (max-width: 68em) {
+  .cta-info p {
+    width: 30rem;
+  }
+}
+@media (max-width: 62.5em) {
+  form {
+    max-width: 45rem;
+  }
+  form input {
+    width: 100%;
+  }
+}
+@media (max-width: 48em) {
+  .contact-query-CTA {
+    flex-direction: column;
+  }
+}
+@media (max-width: 22em) {
+  form div {
+    flex-direction: column;
+  }
+  form input {
+    padding: 0rem 5rem 0rem 2rem;
+  }
+  .message-input {
+    padding: 2rem 0rem 15rem 2rem;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
+/* query about */
+@media (max-width: 53em) {
+  .featured-section {
+    grid-template-columns: 1fr;
+  }
+  .third-img-row {
+    grid-row: 3;
+  }
+  .agenda-text {
+    width: 70%;
+  }
+  .support-offers {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+@media (max-width: 32em) {
+  .percentage-container {
+    width: 30rem;
+  }
+  .support-offer-one {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .agenda {
+    padding: 8rem 0rem;
+  }
+  .change-offer {
+    flex-direction: column;
+  }
+  .change-offer div {
+    align-items: center;
+  }
+  .cta {
+    padding: 8rem 2rem;
+  }
+  .cta h2 {
+    font-size: 2.5rem;
+  }
+  .f-title-two {
+    font-size: 2.5rem;
+  }
+  .agendas {
+    padding: 1rem;
+  }
+  .agenda p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 23em) {
+  .agenda p {
+    font-size: 1.2rem;
+  }
+  .percentage-container {
+    width: 24rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header em {
+    font-size: 3rem;
+  }
+}
+
+/* services */
+@media (max-width: 59.5em) {
+  .unique-break {
+    grid-template-columns: 1fr;
+  }
+  .third-img-row {
+    grid-row: 3;
+  }
+}
+@media (max-width: 29em) {
+  .carousel-content p {
+    font-size: 1.5rem;
+  }
+  .featured-top,
+  .featured-bottom {
+    flex-direction: column;
+  }
+  .head-service h1 {
+    font-size: 2.5rem;
+  }
+  .head-service em {
+    font-size: 3rem;
+  }
+}
+
+/* minimal-bag */
+@media (max-width: 54em) {
+  .bag-intro {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .bag-info {
+    align-self: flex-start;
+  }
+}
+@media (max-width: 47em) {
+  .bag-grid {
+    height: 120rem;
+    grid-template-columns: 1fr;
+  }
+  main {
+    padding: 5rem 2rem;
+  }
+}
+@media (max-width: 24em) {
+  .bag-inner-info p {
+    font-size: 1.2rem;
+  }
+  .bag-inner-info strong {
+    font-size: 1.4rem;
+  }
+  .bag-first p {
+    font-size: 1.5rem;
+  }
+  .work-slider a {
+    font-size: 1.2rem;
+  }
+  .work-slider {
+    gap: 1rem;
+  }
+}
+
+/* minimal-app */
+@media (max-width: 62em) {
+  .mm-left {
+    padding: 0;
+  }
+
+  .mm-info {
+    grid-template-columns: 1fr 1fr;
+    padding: 15rem 0rem 5rem 0rem;
+  }
+  .minimal-mobile {
+    flex-direction: column;
+  }
+}
+@media (max-width: 39em) {
+  .mm-info {
+    grid-template-columns: 1fr;
+  }
+  .mm-info p {
+    font-size: 1.3rem;
+  }
+  .mm-inner-info strong {
+    font-size: 1.3rem;
+  }
+  .mm-inner-info a {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 33em) {
+  .mm-info {
+    padding: 8rem 0rem;
+  }
+  .mm-left h1 {
+    font-size: 2.5rem;
+  }
+  .mm-left p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .mm-info {
+    padding: 10rem 0rem;
+  }
+  .work-slider a {
+    font-size: 1rem;
+  }
+  .groovy {
+    padding: 2rem;
+  }
+}
+
+/* t-shirt */
+@media (max-width: 44em) {
+  .t-shirt {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 58em) {
+  .business-info {
+    flex-direction: column;
+  }
+}
