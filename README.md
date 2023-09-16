@@ -16,7 +16,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/snow-website.git
+git clone https://github.com/yourusername/Snow-prototype
 Navigate to the Project Directory:
 
 bash
