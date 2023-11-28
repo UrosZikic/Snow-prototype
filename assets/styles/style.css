@@ -219,7 +219,7 @@ main {
   font-family: Playfair Display, arial;
 }
 .second-info h2:first-child {
-  color: rgb(219, 219, 219);
+  color: #424242;
   font-size: 6rem;
   padding-left: 2rem;
 }
@@ -261,7 +261,7 @@ main {
 .third--row-info h2:first-child {
   font-size: 6rem;
   font-family: Playfair Display, arial;
-  color: rgb(219, 219, 219);
+  color: #424242;
 }
 .third--row-info h2:last-child {
   font-size: 2.5rem;
@@ -306,7 +306,7 @@ main {
 }
 .row3 h2:first-child {
   font-size: 6rem;
-  color: rgb(219, 219, 219);
+  color: #424242;
 }
 .row3 h2:last-child em {
   font-weight: 300;
